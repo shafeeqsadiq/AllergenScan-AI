@@ -1,0 +1,28 @@
+# Node modules and dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# System files
+AppData/
+.DS_Store
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Environment variables
+.env
+*.env
+
+# Build files
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*

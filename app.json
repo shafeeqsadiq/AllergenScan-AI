@@ -1,0 +1,23 @@
+{
+  "android": {
+    "package": "com.anonymous.smartfoodallergydetective"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "05c6ed43-ff0b-4598-b7bb-1f3e5ab080a6"
+    }
+  },
+  "expo": {
+    "ios": {
+      "bundleIdentifier": "com.anonymous.smartfoodallergydetective",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "05c6ed43-ff0b-4598-b7bb-1f3e5ab080a6"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# System directories
+
+AppData/
+.DS_Store
+
+# Temporary files
+
+\*.tmp
+
+# Node modules and build artifacts
+
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Debug logs
+
+npm-debug._
+yarn-debug._
+yarn-error.\*

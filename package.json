@@ -1,0 +1,27 @@
+{
+  "name": "smart-food-allergy-detective",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "start:client": "cd client && expo start",
+    "start:server": "cd server && node index.js",
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.23.3",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.23.3",
+    "@xmldom/xmldom": "^0.8.0"
+  },
+  "dependencies": {
+    "expo": "~52.0.37",
+    "expo-dev-client": "^5.0.12",
+    "react": "18.3.1",
+    "react-native": "0.76.7"
+  }
+}
