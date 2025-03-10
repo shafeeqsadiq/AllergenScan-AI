@@ -74,8 +74,9 @@ The easiest way to test AllergenScan AI is using Expo Go:
 
 ## Screenshots
 
-![WhatsApp Image 2025-03-09 at 9 02 09 PM (1)](https://github.com/user-attachments/assets/d4ae2b29-ec60-492f-8033-709724e8aaff)
 ![WhatsApp Image 2025-03-09 at 9 02 09 PM](https://github.com/user-attachments/assets/305ce45f-959b-45d9-b693-35f3477589b7)
+![WhatsApp Image 2025-03-09 at 9 02 09 PM (1)](https://github.com/user-attachments/assets/d4ae2b29-ec60-492f-8033-709724e8aaff)
+
 
 
 ## Acknowledgments
