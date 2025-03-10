@@ -77,3 +77,10 @@ The easiest way to test AllergenScan AI is using Expo Go:
 ![Adobe Express - file (1)](https://github.com/user-attachments/assets/4fe242c3-eeb7-4a1a-ba77-f06c19dea6af)
 ![Adobe Express - file](https://github.com/user-attachments/assets/a3ae95d6-6973-4f01-a381-42f6e8ea5f7b)
 
+## Future Enhancements
+
+- **Calorie Estimation**: Upcoming functionality to automatically estimate calorie content of detected foods, helping users make more informed dietary choices
+- **Expanded Food Recognition**: Integration of additional machine learning models to detect a broader variety of food items with improved accuracy
+- **Enhanced Authentication**: Implementation of more secure authentication methods including biometric verification and OAuth integration for seamless secure access
+
+
