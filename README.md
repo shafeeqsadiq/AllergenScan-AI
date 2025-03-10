@@ -20,7 +20,7 @@ The easiest way to test AllergenScan AI is using Expo Go:
 
    ```bash
    git clone https://github.com/yourusername/SmartFoodAllergyDetective.git
-   cd SmartFoodAllergyDetective
+   cd SmartFoodAllergyDetective/client
    npm install
    ```
 
