@@ -38,7 +38,7 @@ The easiest way to test AllergenScan AI is using Expo Go:
 ## AI Core
 
 - **Clarifai Neural Network API**: Used for basic food image classification
-- **AI LLM Integration**: Dynamic allergen identification using sonar-pro model
+- **AI LLM Integration**: Dynamic allergen identification using large language model
 - **Two-Stage Detection Process**: Sequential API calls for food identification and allergen generation
 
 ## Frontend
