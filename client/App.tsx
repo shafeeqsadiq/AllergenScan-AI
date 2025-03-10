@@ -5,11 +5,11 @@ import MainStack from './src/navigation/MainStack';
 
 export default function App() {
   return (
-    <AuthProvider>
+     <AuthProvider>
       <NavigationContainer>
         <MainStack />
       </NavigationContainer>
-    </AuthProvider>
+     </AuthProvider>
   );
 }
 

@@ -3,15 +3,16 @@ import React, { useState } from 'react';
 import { View, TextInput, StyleSheet, Text, TouchableOpacity, Alert } from 'react-native';
 import { useAuth } from '../context/AuthContext';
 
-// Hardcoded credentials - in a real app, these would be in a secure backend
-const VALID_USERNAME = "user";
-const VALID_PASSWORD = "password";
+// Updated credentials as requested
+const VALID_USERNAME = "shafeeq";
+const VALID_PASSWORD = "pass1234";
 
 export default function LoginScreen() {
   const { login } = useAuth();
   const [username, setUsername] = useState(''); // Empty to start
   const [password, setPassword] = useState(''); // Empty to start
   const [isLoading, setIsLoading] = useState(false);
+  const [showHint, setShowHint] = useState(false); // To control hint visibility
   
   const handleLogin = async () => {
     if (!username.trim() || !password.trim()) {
@@ -37,8 +38,10 @@ export default function LoginScreen() {
   
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Food Allergy Detective</Text>
+      <Text style={styles.title}>Allergen Scan AI</Text>
       
+      <Text style={styles.description}>AI-powered food allergen detector</Text>
+
       <Text style={styles.label}>Username</Text>
       <TextInput
         style={styles.input}
@@ -67,9 +70,22 @@ export default function LoginScreen() {
         </Text>
       </TouchableOpacity>
       
-      <Text style={styles.hint}>
-        Hint: Use "user" as username and "password" as password
-      </Text>
+      {/* Hint Toggle Button */}
+      <TouchableOpacity
+        onPress={() => setShowHint(!showHint)}
+        style={styles.hintToggle}
+      >
+        <Text style={styles.hintToggleText}>
+          {showHint ? 'Hide' : 'Credentials'}
+        </Text>
+      </TouchableOpacity>
+      
+      {/* Hint Text */}
+      {showHint && (
+        <Text style={styles.hint}>
+          Username is "shafeeq" and password is "pass1234"
+        </Text>
+      )}
     </View>
   );
 }
@@ -86,6 +102,12 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 30,
     textAlign: 'center',
+  },
+  description: {
+    fontSize: 16,
+    color: '#666',
+    textAlign: 'center',
+    marginBottom: 25,  // Add space after the description
   },
   label: {
     fontSize: 16,
@@ -113,10 +135,21 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 16,
   },
+  hintToggle: {
+    marginTop: 15,
+    alignItems: 'center',
+  },
+  hintToggleText: {
+    color: '#2196F3',
+    fontSize: 14,
+  },
   hint: {
-    marginTop: 20,
+    marginTop: 8,
     textAlign: 'center',
     color: '#888',
     fontSize: 14,
+    padding: 10,
+    backgroundColor: '#e3f2fd',
+    borderRadius: 5,
   }
 });
