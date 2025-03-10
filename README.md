@@ -2,7 +2,7 @@
 
 ## Overview
 
-AllergenScan AI is an intelligent AI agent that helps users identify potential allergens in food through advanced image analysis. This AI-powered detection system is designed to give people with food allergies more confidence when eating by providing quick and accurate allergen identification through their smartphone camera.
+AllergenScan AI is an intelligent AI agent that helps users identify potential allergens in food through advanced image analysis. This AI-powered detection system is designed to give allergen information to people with food allergies by accurate food identification through their smartphone camera.
 
 ## Features
 
